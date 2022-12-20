@@ -1,0 +1,17 @@
+
+<nav class='navbar navbar-expand navbar-light bg-light'>
+  <a class='navbar-brand'>{{pageTitle}}</a>
+  <ul class='nav nav-pills'>
+    <li><a class='nav-link' routerLink="/dashboard">Dashboard</a><li>
+    <li><a class='nav-link' routerLink="/newslist">Product List</a></li>
+
+    <!--bracket not required for routerLink without parameters  -->
+     <!-- <li><a class='nav-link' [routerLink]="['/Dashboard']">Home-w-Bracket</a></li>
+    <li><a class='nav-link' [routerLink]="['/NewsList']">ProductList-w-Braclet</a></li> -->
+  </ul>
+</nav>
+
+<h3>This is app.component.html</h3>
+<div class="container">
+  <router-outlet></router-outlet>    <!-- location of compotent -->
+</div>
